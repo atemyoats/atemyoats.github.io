@@ -1,69 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>my archive</title>
-  <style>
-    body {
-      background: black;
-      color: white;
-      font-family: Arial;
-      height: 2000px;
-    }
+<meta charset="UTF-8">
+<title>archive</title>
+<style>
+  body {
+    background: white; /* white background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* center everything horizontally */
+  }
 
-    .title {
-      position: absolute;
-      top: 50px;
-      left: 80px;
-      font-size: 24px;
-    }
+  .container {
+    padding: 50px 20px; /* space from top */
+  }
 
-    .text {
-      position: absolute;
-      top: 200px;
-      left: 100px;
-      width: 200px;
-    }
+  /* image styling */
+  .center-image {
+    max-width: 400px; /* adjust as needed */
+    width: 80%;
+    height: auto;
+  }
 
-    .image {
-      position: absolute;
-      top: 150px;
-      left: 400px;
-      width: 250px;
-    }
+  /* substack link styling */
+  .substack-link {
+    display: block; /* so it goes below the image */
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(0, 43, 255);
+    text-decoration: underline;
+  }
 
-    .substack {
-      position: absolute;
-      top: 500px;
-      left: 300px;
-      color: pink;
-    }
-
-    .tiny {
-      position: absolute;
-      top: 900px;
-      left: 50px;
-      font-size: 10px;
-      opacity: 0.7;
-    }
-  </style>
+  .substack-link:hover {
+    opacity: 0.8;
+  }
+</style>
 </head>
-
 <body>
 
-<div class="title">archive</div>
+<div class="container">
+  <!-- replace the src with your actual image URL -->
+  <img src=https://raw.githubusercontent.com/atemyoats/atemyoats.github.io/main/challangah.png alt="archive image" class="center-image">
 
-<div class="text">
-things i want to remember / things i won’t / idk
-</div>
-
-<img src="https://via.placeholder.com/300" class="image">
-
-<a href="https://your-substack-link.com" class="substack">
-entries
-</a>
-
-<div class="tiny">
-last updated at 3:12am
+  <!-- substack link -->
+  <a href="https://atemyoats.substack.com" target="_blank" class="substack-link">
+    click here to see these two men kiss !!!!
+  </a>
 </div>
 
 </body>
